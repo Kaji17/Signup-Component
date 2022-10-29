@@ -1,42 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <!-- librairie css for animation-->
+
   <title>Frontend Mentor | Intro component with sign up form</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
 
-  Learn to code by watching others
+<body class="content--flex">
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+  <div class="content-singup content--flex">
+
+    <div class="content-description text--white content--flex content--width">
+      <h1>Learn to code by watching others</h1>
+
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+
+    </div>
+
+    <main class="content-main content--flex">
+
+      <div
+        class="content-main__titleform content-main__titleform--heigth content--width content--flex text--white content--border content--shadow">
+        <span class="text--fontweigth">Try it free 7 days</span> then $20/mo. thereafter
+      </div>
+
+      <form name="form-signup" class="form-signup content--width content--border content--shadow ">
+        <div class="form-signup__input ">
+
+          <input autocomplete="off" type="text" name="firstname" id="txtfirstame" placeholder="First Name"
+            class="content--border">
+          <span>
+            <img src="images/icon-error.svg" alt="icon-error" class="form-signup__iconerr" id="iconerrfirstname">
+            <p class="form-signup__displayError">Error</p>
+          </span>
+
+          <input autocomplete="off" type="text" name="lastname" id="txtlastname" placeholder="Last Name"
+            class="content--border">
+          <span>
+            <img src="images/icon-error.svg" alt="icon-error" class="form-signup__iconerr" id="iconerrlastname">
+            <p class="form-signup__displayError">Error</p>
+          </span>
+
+          <input autocomplete="off" type="email" name="email" id="txtemail" placeholder="E-mail Address"
+            class="content--border">
+          <span>
+            <img src="images/icon-error.svg" alt="icon-error" class="form-signup__iconerr" id="iconerremail">
+            <p class="form-signup__displayError">Error</p>
+          </span>
+
+          <input autocomplete="off" type="password" name="password" id="txtpassword" placeholder="Password"
+            class="content--border">
+          <span>
+            <img src="images/icon-error.svg" alt="icon-error" class="form-signup__iconerr" id="iconerrpassword">
+            <p class="form-signup__displayError">Error</p>
+          </span>
+
+          <button type="submit" class="form-signup__btn content--border text--white"> Claim your free trial</button>
+        </div>
+      </form>
+    </main>
+
+
+  </div>
+
+  <!-- Learn to code by watching others
+
+  See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+  but understanding how developers think is invaluable.
 
   Try it free 7 days then $20/mo. thereafter
 
-  First Name 
-  Last Name 
+  First Name
+  Last Name
   Email Address
   Password
 
-  Claim your free trial 
+  Claim your free trial
 
-  By clicking the button, you are agreeing to our Terms and Services
-  
-  <footer>
+  By clicking the button, you are agreeing to our Terms and Services -->
+
+  <!-- <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
+
 </html>

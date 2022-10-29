@@ -1,0 +1,133 @@
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Outfit:wght@400;700&family=Poppins:wght@400;500;600;700&family=Space+Mono:wght@700&display=swap');
+
+.text--white {
+    color: white;
+}
+.text--fontweigth{
+    font-weight: 700;
+}
+
+.content--flex {
+    display: flex;
+}
+.content--width{
+    width: 542px;
+}
+
+
+body {
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url(images/bg-intro-desktop.png);
+}
+
+.content-singup {
+    width: 1116px;
+    height: 649px;
+    justify-content: space-between;
+}
+
+.content-description {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content-description h1{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 50px;
+}
+.content-description p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 200;
+    margin-top: 0px;
+}
+.content-main__titleform{
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(248, 32%, 49%);
+}
+
+.content-main__titleform--heigth{
+    height: 63px;
+}
+
+.content-main__titleform span{
+    margin-right: 5px;
+}
+
+.content-main{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-signup{
+    height: 561px;
+    background-color: white;
+}
+.content--border{
+    border-radius: 10px;
+}
+.content--shadow{
+    box-shadow: 0px 10px 3px 1px rgb(0 0 0 / 23%);
+}
+.form-signup__input{
+    margin: 40px 40px auto;
+}
+.form-signup__input input{
+    height: 55px;
+    width: 92%;
+    border-width: 1px;
+    border-color: hsl(246, 25%, 77%);
+    padding-left: 34px;
+    font-size: medium;
+    font-weight: 700;
+}
+.form-signup__input input:focus{
+    outline-color: hsl(246, 5%, 37%) ;
+}
+
+.form-signup__input p{
+    text-align: right;
+    margin-top: 5px;
+    color: hsl(0, 100%, 74%);
+    font-size: small;
+    font-style: italic;
+}
+.form-signup__btn{
+    width: 100%;
+    height: 57px;
+    background-color: hsl(154, 59%, 51%);
+    font-size: large;
+}
+.form-signup__iconerr{
+    position: absolute;
+    left: 92%;
+}
+#iconerrfirstname{
+    top: 22.5%;
+}
+#iconerrlastname{
+    top: 37.5%;
+}
+#iconerremail{
+    top: 52.5%;
+}
+#iconerrpassword{
+    top: 67.5%;
+}
