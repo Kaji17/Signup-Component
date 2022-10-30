@@ -131,20 +131,8 @@ body {
     margin-top: 20px;
 }
 .form-signup__iconerr{
-    position: absolute;
-    left: 92%;
-}
-#iconerrfirstname{
-    top: 149.5px;
-}
-#iconerrlastname{
-    top: 249.5px;
-}
-#iconerremail{
-    top: 349.5px;
-}
-#iconerrpassword{
-    top: 449.5px;
+    position: relative;
+    right: 45px;
 }
 .form-signup__termandservice{
     font-size: x-small;
