@@ -121,6 +121,7 @@ txtemail.addEventListener('input', (e)=>{
     if (value!='') {
         nonedisplayerror("iconerremail", "erroremail");
         txtemail.classList.remove('form-signup__input--error');
+        txtemail.removeAttribute('placeholder');  
     }
 })
 txtpassword.addEventListener('input', (e)=>{
