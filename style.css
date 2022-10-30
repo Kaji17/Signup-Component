@@ -107,7 +107,7 @@ body {
     outline-color: hsl(246, 5%, 37%) ;
 }
 
-.form-signup__element p{
+.form-signup__element.form-signup__displayError{
     text-align: right;
     margin-top: 5px; 
     font-size: small;
