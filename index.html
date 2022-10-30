@@ -37,8 +37,8 @@
       </div>
 
       <form name="form-signup" class="form-signup content--width content--border content--shadow content--flex form-signup__element">
-        <!-- <div class="form-signup__element"> -->
-
+       
+        <!-- Champs de saisie de nom -->
           <div class="col">
             <input autocomplete="off" required type="text" name="firstname" id="txtfirstname" placeholder="First Name"
               class=" form-signup__input content--border">
@@ -46,6 +46,7 @@
             <p class="form-signup__displayError text--red" id="errorName"></p>
           </div>
 
+          <!-- champs de saisie du prenoms -->
           <div class="col">
             <input autocomplete="off" required type="text" name="lastname" id="txtlastname" placeholder="Last Name"
               class=" form-signup__input content--border">
@@ -53,6 +54,7 @@
             <p class="form-signup__displayError text--red" id="errorLastName"></p>
           </div>
 
+          <!-- champs de saisie d'email -->
           <div class="col">
             <input autocomplete="off" required type="email" name="email" id="txtemail" placeholder="E-mail Address"
               class=" form-signup__input content--border">
@@ -60,18 +62,21 @@
             <p class="form-signup__displayError text--red" id="erroremail"></p>
 
           </div>
-          <div class="col">
 
+          <!-- Champs de saisie de mot de passe -->
+          <div class="col">
             <input autocomplete="off" required type="password" name="password" id="txtpassword" placeholder="Password"
               class=" form-signup__input  content--border ">
             <img class="form-signup__iconerr" id="iconerrpassword">
             <p class="form-signup__displayError text--red" id="errorpassword"></p>
 
           </div>
+
+          <!-- Button submit -->
           <button id="submitbtn" type="submit" class="form-signup__btn content--border text--white"> Claim your free
             trial</button>
 
-        <!-- </div> -->
+        <!-- texte above form -->
         <div class="form-signup__termandservice">
           <p>
             By clicking the button, you are agreeing to our <span class="text--red ">Terms and Services </span>
