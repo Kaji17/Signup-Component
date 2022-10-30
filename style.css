@@ -138,6 +138,8 @@ body {
     font-size: x-small;
     text-align: center;
     color: hsl(246, 25%, 77%);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .form-signup__termandservice span{
     font-weight: 700;
