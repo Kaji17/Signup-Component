@@ -54,7 +54,7 @@ Users should be able to:
 - [pixelsconvert](https://pixelsconverter.com/px-to-rem) - This helped me to convert px to rem for my font-size
 ## Author
 
-- Linkedin - [@Katina pê virgile ouattara](https://www.linkedin.com/in/katina-p%C3%AA-virgile-ouattara-62289a203/)
+- Linkedin - [@Katina pê virgile ouattara](https://www.linkedin.com/in/katinaouattara/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/pevirgile)
 
