@@ -147,6 +147,6 @@ body {
 .form-signup__input--error{
     outline: 2px solid hsl(0, 100%, 74%) ;
 }
-::-webkit-input-placeholder{
-    color: hsl(0, 100%, 74%);
+.col{
+    position: relative;
 }
