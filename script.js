@@ -88,7 +88,8 @@ btnsubmit.addEventListener('click', ()=>{
     if( txtemail.value===''){
         displayerror("iconerremail", "erroremail");
         txtemail.classList.add('form-signup__input--error');
-        txtemail.removeAttribute('placeholder');       
+        txtemail.removeAttribute('placeholder');  
+        txtemail.setAttribute('placeholder', "email@example/com");    
     }
 })
 btnsubmit.addEventListener('click', ()=>{
