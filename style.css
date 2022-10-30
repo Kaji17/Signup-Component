@@ -123,10 +123,12 @@ body {
     margin-right: auto;
 }
 .form-signup__btn{
-    width: 100%;
+    width: 86%;
     height: 57px;
     background-color: hsl(154, 59%, 51%);
     font-size: large;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 .form-signup__iconerr{
     position: absolute;
