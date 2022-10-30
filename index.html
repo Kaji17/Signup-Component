@@ -31,39 +31,54 @@
 
     <main class="content-main content--flex">
 
-      <div class="content-main__titleform content-main__titleform--heigth content--width content--flex text--white content--border content--shadow">
-       <span class="text--fontweigth">Try it free 7 days</span> then $20/mo. thereafter
+      <div
+        class="content-main__titleform content-main__titleform--heigth content--width content--flex text--white content--border content--shadow">
+        <span class="text--fontweigth">Try it free 7 days</span> then $20/mo. thereafter
       </div>
 
-      <form name="form-signup" class="form-signup content--width content--border content--shadow content--flex">
-        <div class="form-signup__element ">
-          
-          <input autocomplete="off" required type="text" name="firstname" id="txtfirstname" placeholder="First Name" class=" form-signup__input content--border">
-          <img class="form-signup__iconerr" id="iconerrfirstname">
-          <p class="form-signup__displayError text--red" id="errorName"></p>
-          
-          <input autocomplete="off" required type="text" name="lastname" id="txtlastname" placeholder="Last Name" class=" form-signup__input content--border">
-          <img class="form-signup__iconerr" id="iconerrlastname">
-          <p class="form-signup__displayError text--red" id="errorLastName"></p>
-          
-          <input autocomplete="off" required type="email" name="email" id="txtemail" placeholder="E-mail Address" class=" form-signup__input content--border">
-          <img class="form-signup__iconerr" id="iconerremail">
-          <p class="form-signup__displayError text--red" id="erroremail"></p>
-          
-          <input autocomplete="off" required type="password" name="password" id="txtpassword" placeholder="Password" class=" form-signup__input  content--border ">
-          <img class="form-signup__iconerr" id="iconerrpassword">
-          <p class="form-signup__displayError text--red" id="errorpassword"></p>
+      <form name="form-signup" class="form-signup content--width content--border content--shadow content--flex form-signup__element">
+        <!-- <div class="form-signup__element"> -->
 
-          <button id="submitbtn" type="submit" class="form-signup__btn content--border text--white"> Claim your free trial</button>
-          
-        </div>
+          <div class="col">
+            <input autocomplete="off" required type="text" name="firstname" id="txtfirstname" placeholder="First Name"
+              class=" form-signup__input content--border">
+            <img class="form-signup__iconerr" id="iconerrfirstname">
+            <p class="form-signup__displayError text--red" id="errorName"></p>
+          </div>
+
+          <div class="col">
+            <input autocomplete="off" required type="text" name="lastname" id="txtlastname" placeholder="Last Name"
+              class=" form-signup__input content--border">
+            <img class="form-signup__iconerr" id="iconerrlastname">
+            <p class="form-signup__displayError text--red" id="errorLastName"></p>
+          </div>
+
+          <div class="col">
+            <input autocomplete="off" required type="email" name="email" id="txtemail" placeholder="E-mail Address"
+              class=" form-signup__input content--border">
+            <img class="form-signup__iconerr" id="iconerremail">
+            <p class="form-signup__displayError text--red" id="erroremail"></p>
+
+          </div>
+          <div class="col">
+
+            <input autocomplete="off" required type="password" name="password" id="txtpassword" placeholder="Password"
+              class=" form-signup__input  content--border ">
+            <img class="form-signup__iconerr" id="iconerrpassword">
+            <p class="form-signup__displayError text--red" id="errorpassword"></p>
+
+          </div>
+          <button id="submitbtn" type="submit" class="form-signup__btn content--border text--white"> Claim your free
+            trial</button>
+
+        <!-- </div> -->
         <div class="form-signup__termandservice">
           <p>
             By clicking the button, you are agreeing to our <span class="text--red ">Terms and Services </span>
           </p>
         </div>
       </form>
-      
+
     </main>
 
 
