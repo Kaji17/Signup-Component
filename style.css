@@ -150,3 +150,58 @@ body {
 .col{
     position: relative;
 }
+
+/* Screen 1024 */
+@media screen and (max-width:1112px) {
+    .content-singup{
+        max-width: 869px;
+    }
+    .content--width {
+        width: 440px;
+    }
+    .form-signup__element p{
+        width: 457px;
+    }
+    .col{
+        height: auto;
+    }
+    .form-signup__element input{
+        width: 77%;
+    }
+    .content-description h1{
+        font-size: xx-large;
+    }
+    
+}
+
+@media screen and (max-width:847px){
+    .content-singup{
+        max-width: 768px;
+    }
+    .content--width {
+        width: 384px;
+    }
+    .form-signup__element p{
+        width: 63%;
+    }
+    .form-signup__element input{
+        width: 72%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    body {
+        background-image: url(images/bg-intro-mobile.png);
+    }
+    .content--flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-description{
+        text-align: center;
+        margin-bottom: 55px;
+    }
+    .form-signup{
+        margin-bottom: 76px;
+    }
+}
