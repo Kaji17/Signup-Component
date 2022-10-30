@@ -11,6 +11,9 @@
 .text--white {
     color: white;
 }
+.text--red {
+    color: hsl(0, 100%, 74%);;
+}
 .text--fontweigth{
     font-weight: 700;
 }
@@ -36,8 +39,8 @@ body {
 }
 
 .content-singup {
-    width: 1116px;
-    height: 649px;
+    max-width: 1116px;
+    max-height: 649px;
     justify-content: space-between;
 }
 
@@ -48,12 +51,12 @@ body {
 }
 .content-description h1{
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 30px;
     font-size: 50px;
 }
 .content-description p{
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 30px;
     font-weight: 200;
     margin-top: 0px;
 }
@@ -73,12 +76,14 @@ body {
 
 .content-main{
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .form-signup{
-    height: 561px;
+    min-height: 447px;
     background-color: white;
+    flex-direction: column;
+    margin-top: 30px;
 }
 .content--border{
     border-radius: 10px;
@@ -86,10 +91,10 @@ body {
 .content--shadow{
     box-shadow: 0px 10px 3px 1px rgb(0 0 0 / 23%);
 }
-.form-signup__input{
-    margin: 40px 40px auto;
+.form-signup__element{
+    margin: 40px 40px 10px 40px;
 }
-.form-signup__input input{
+.form-signup__element input{
     height: 55px;
     width: 92%;
     border-width: 1px;
@@ -98,14 +103,13 @@ body {
     font-size: medium;
     font-weight: 700;
 }
-.form-signup__input input:focus{
+.form-signup__element input:focus{
     outline-color: hsl(246, 5%, 37%) ;
 }
 
-.form-signup__input p{
+.form-signup__element p{
     text-align: right;
-    margin-top: 5px;
-    color: hsl(0, 100%, 74%);
+    margin-top: 5px; 
     font-size: small;
     font-style: italic;
 }
@@ -120,14 +124,28 @@ body {
     left: 92%;
 }
 #iconerrfirstname{
-    top: 22.5%;
+    top: 149.5px;
 }
 #iconerrlastname{
-    top: 37.5%;
+    top: 249.5px;
 }
 #iconerremail{
-    top: 52.5%;
+    top: 349.5px;
 }
 #iconerrpassword{
-    top: 67.5%;
+    top: 449.5px;
+}
+.form-signup__termandservice{
+    font-size: x-small;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+.form-signup__termandservice span{
+    font-weight: 700;
+}
+.form-signup__input--error{
+    outline: 2px solid hsl(0, 100%, 74%) ;
+}
+::-webkit-input-placeholder{
+    color: hsl(0, 100%, 74%);
 }
