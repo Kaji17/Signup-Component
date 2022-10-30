@@ -33,7 +33,6 @@ function isempty(id){
 function displayerror(idimg,idp){
     let elt = document.getElementById(idimg);
     elt.setAttribute('src', "images/icon-error.svg");
-    elt.setAttribute('alt', "icon-error");
     texterror(idp);
 }
 
