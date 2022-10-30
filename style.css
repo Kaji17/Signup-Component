@@ -107,6 +107,10 @@ body {
     outline-color: hsl(246, 5%, 37%) ;
 }
 
+#submitbtn:hover{
+    opacity: 50%;
+}
+
 .form-signup__element.form-signup__displayError{
     text-align: right;
     margin-top: 5px; 
@@ -129,6 +133,7 @@ body {
     font-size: large;
     margin-left: 30px;
     margin-top: 20px;
+    border-width: 0px;
 }
 .form-signup__iconerr{
     position: relative;
